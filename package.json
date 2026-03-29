@@ -1,0 +1,13 @@
+{
+  "name": "cfm-website",
+  "version": "1.0.0",
+  "description": "Cunning Folk Media — publisher website",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
