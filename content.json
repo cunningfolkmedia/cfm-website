@@ -1,0 +1,103 @@
+{
+  "site": {
+    "name": "Cunning Folk Media",
+    "tagline": "Rigorous Investigations into High Weirdness",
+    "mission": "Cunning Folk Media publishes books that take the bizarre seriously. Rigorous investigations into paranormal phenomena, esoteric philosophy, cultural hyperstition, and the liminal spaces where reason meets the unexplained. We believe the weird is worth thinking about.",
+    "location": "Portland, Oregon",
+    "email": "cunningfolkmedia@gmail.com",
+    "social": {
+      "twitter": "https://twitter.com/cunningfolkmedia",
+      "instagram": "https://instagram.com/cunningfolkmedia",
+      "substack": "https://cunningfolkmedia.substack.com"
+    }
+  },
+  "featured": {
+    "id": "apocalypse-meow",
+    "label": "Forthcoming — Babalon Press",
+    "hook": "\"You already died in 2012. You just didn't notice.\""
+  },
+  "books": [
+    {
+      "id": "apocalypse-meow",
+      "title": "Apocalypse Meow",
+      "subtitle": "How We Missed the End of the World and Woke Up in the Algorithm",
+      "author": "Mark Coates",
+      "pillar": "Bold Cultural Theory & Hyperstition",
+      "pillarNumber": 6,
+      "imprint": "Babalon Press",
+      "status": "forthcoming",
+      "description": "The 2012 apocalypse actually happened. On September 30, AlexNet shattered every computer vision benchmark in existence. On December 21, Gangnam Style hit one billion views and broke YouTube's counter. Terence McKenna's Timewave Zero was right — we just missed the apocalypse because we were looking for fire and brimstone when we should have been looking for floating point operations. We are now living in the digital afterlife.",
+      "coverImage": "assets/covers/apocalypse-meow.jpg",
+      "amazonUrl": ""
+    },
+    {
+      "id": "hitchhikers-guide-high-weirdness",
+      "title": "The Hitchhiker's Guide to High Weirdness",
+      "subtitle": "Popular Culture, Paranoid Hijinx & Paranormal Activity",
+      "author": "Mark Coates",
+      "pillar": "High Weirdness & Anomalistics",
+      "pillarNumber": 5,
+      "imprint": "Babalon Press",
+      "status": "in-progress",
+      "description": "A field guide to the strange, the paranormal, and the delightfully peculiar. Tracing the threads of high weirdness through popular culture, fringe beliefs, and documented anomalies — where UFO sightings meet cultural theory and Forteana meets the footnotes.",
+      "coverImage": "assets/covers/hitchhikers-guide.jpg",
+      "amazonUrl": ""
+    },
+    {
+      "id": "fairy-rings-fungal-networks",
+      "title": "Fairy Rings and Fungal Networks",
+      "subtitle": "Mycology, Magic, and the Underground Internet",
+      "author": "Mark Coates",
+      "pillar": "Folklore, Myth & The Liminal",
+      "pillarNumber": 7,
+      "imprint": "Babalon Press",
+      "status": "available",
+      "description": "An exploration of fungal intelligence, mycological metaphors in esoteric practice, and the historical convergence of mushroom culture and occult knowledge. From fairy rings in Celtic folklore to the Wood Wide Web — the underground network that predates the internet by 400 million years.",
+      "coverImage": "assets/covers/fairy-rings.jpg",
+      "amazonUrl": ""
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-03-28",
+      "headline": "Announcing Apocalypse Meow by Mark Coates",
+      "body": "Forthcoming from Babalon Press: Apocalypse Meow — How We Missed the End of the World and Woke Up in the Algorithm. The 2012 apocalypse happened. We just missed it because we were looking for fire and brimstone. Connecting Terence McKenna's Timewave Zero to AlexNet, Gangnam Style, and the end of linear reality. Pre-order details coming soon."
+    },
+    {
+      "date": "2026-03-15",
+      "headline": "Manuscript Submissions Open — 2026 Cycle",
+      "body": "Cunning Folk Media is accepting proposals across all 12 content pillars. We are particularly interested in rigorous investigations into paranormal phenomena, esoteric philosophy, and cultural hyperstition. Send a one-page proposal and author bio to cunningfolkmedia@gmail.com. We respond within eight weeks."
+    }
+  ],
+  "submission": {
+    "guidelines": "Cunning Folk Media publishes books that fall within our 12 content pillars — from Esoteric History and Occult Biographies to Parapsychology, High Weirdness, and Bold Cultural Theory. We seek rigorous, earnest investigations: academic distance with profound experiential respect. No sensationalism. No cheap hooks. The weird deserves serious thinking.",
+    "email": "cunningfolkmedia@gmail.com",
+    "note": "We respond to all submissions within 8 weeks. Please include a one-page proposal, chapter outline if available, author bio, and two to three comparable titles."
+  },
+  "imprints": [
+    {
+      "name": "Babalon Press",
+      "description": "The primary CFM imprint for the esoteric catalog. Named for the Thelemic goddess of the City of Pyramids, Babalon Press publishes rigorous, earnest investigations into occult history, consciousness, and High Weirdness. We believe in the scholarly examination of the bizarre — not to debunk it, not to celebrate it uncritically, but to examine it with intellectual honesty and depth.",
+      "pillars": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    }
+  ],
+  "pillars": [
+    { "number": 1,  "name": "Esoteric History & Secret Societies",     "color": "#c4522a" },
+    { "number": 2,  "name": "Applied Magick & Praxis",                  "color": "#8b7a4a" },
+    { "number": 3,  "name": "The Paranormal & Ufology",                 "color": "#6b5b95" },
+    { "number": 4,  "name": "Consciousness & Psychedelia",              "color": "#8b4513" },
+    { "number": 5,  "name": "High Weirdness & Anomalistics",            "color": "#556270" },
+    { "number": 6,  "name": "Bold Cultural Theory & Hyperstition",      "color": "#c9a84c" },
+    { "number": 7,  "name": "Folklore, Myth & The Liminal",             "color": "#a0522d" },
+    { "number": 8,  "name": "Mysticism & Eastern Esotericism",          "color": "#4a5859" },
+    { "number": 9,  "name": "Divination & Symbology",                   "color": "#8b1a1a" },
+    { "number": 10, "name": "The Macabre & Death Studies",              "color": "#3d5a5a" },
+    { "number": 11, "name": "Parapsychology & Psi Phenomena",           "color": "#6b4423" },
+    { "number": 12, "name": "Occult Biographies",                       "color": "#5c5c5c" }
+  ],
+  "_meta": {
+    "lastUpdated": "2026-03-29",
+    "updatedBy": "Claude",
+    "notes": "To update this site: edit any field in this JSON using Claude file tools. The site reads this on every page load. Add books to the books array, add news to the news array, update book status from 'forthcoming' to 'available', set amazonUrl when the listing is live. All changes reflect immediately on next load."
+  }
+}
