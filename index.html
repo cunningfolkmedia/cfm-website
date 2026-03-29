@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cunning Folk Media — Rigorous Investigations into High Weirdness</title>
+  <meta name="description" content="Cunning Folk Media publishes rigorous investigations into paranormal phenomena, esoteric philosophy, cultural hyperstition, and High Weirdness. Independent publisher, Portland, Oregon.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER & NAVIGATION -->
+<header id="site-header">
+  <div class="header-container">
+    <a href="#" class="logo" aria-label="Cunning Folk Media">
+      <svg class="logo-mark" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <polygon points="16,2 30,27 2,27" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+        <circle cx="16" cy="16" r="4" fill="none" stroke="#c9a84c" stroke-width="1"/>
+        <line x1="16" y1="2" x2="16" y2="12" stroke="#c4522a" stroke-width="1"/>
+        <line x1="30" y1="27" x2="20.5" y2="21" stroke="#c4522a" stroke-width="1"/>
+        <line x1="2" y1="27" x2="11.5" y2="21" stroke="#c4522a" stroke-width="1"/>
+      </svg>
+      <span class="logo-text">CUNNING FOLK MEDIA</span>
+    </a>
+    <nav id="nav-menu" role="navigation" aria-label="Main navigation">
+      <a href="#books">Books</a>
+      <a href="#about">About</a>
+      <a href="#imprints">Imprints</a>
+      <a href="#submit">Submit</a>
+      <a href="#newsletter">Newsletter</a>
+    </nav>
+    <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-ornament" aria-hidden="true">
+    <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="100" r="90" stroke="#c9a84c" stroke-width="0.5" stroke-dasharray="4 6" opacity="0.3"/>
+      <circle cx="100" cy="100" r="70" stroke="#8b1a1a" stroke-width="0.5" opacity="0.2"/>
+      <polygon points="100,20 175,162 25,162" fill="none" stroke="#c9a84c" stroke-width="0.75" opacity="0.4"/>
+      <polygon points="100,180 175,38 25,38" fill="none" stroke="#c4522a" stroke-width="0.5" opacity="0.3"/>
+      <circle cx="100" cy="100" r="8" fill="none" stroke="#c9a84c" stroke-width="0.75" opacity="0.5"/>
+    </svg>
+  </div>
+  <div class="hero-content reveal">
+    <div class="tagline" id="tagline">Rigorous Investigations into High Weirdness</div>
+    <h1 id="site-title">Cunning Folk Media</h1>
+    <p class="mission" id="mission-statement">We publish books that take the bizarre seriously. No debunking. No uncritical celebration. Rigorous thinking about the strange, the esoteric, and the genuinely unexplained.</p>
+    <div class="hero-ctas">
+      <a href="#books" class="cta-button cta-primary">Explore Our Books</a>
+      <a href="#submit" class="cta-button cta-secondary">Submit a Manuscript</a>
+    </div>
+  </div>
+</section>
+
+<main>
+
+  <!-- FEATURED BOOK SECTION -->
+  <section id="featured" class="featured-section">
+    <div class="featured-inner reveal" id="featured-block">
+      <!-- Populated by JS from content.featured + matching book -->
+    </div>
+  </section>
+
+  <!-- BOOKS SECTION -->
+  <section id="books">
+    <h2 class="reveal">Our Books</h2>
+    <div class="books-grid" id="books-grid">
+      <!-- Books populated by JavaScript -->
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2 class="reveal">About CFM</h2>
+    <div class="about-content">
+      <div class="about-text reveal">
+        <p id="about-p1">Cunning Folk Media was founded to publish rigorous, earnest investigations into the anomalous, the esoteric, and the genuinely strange. We believe the weird deserves serious thinking — not to debunk it, and not to celebrate it uncritically, but to examine it with intellectual honesty and scholarly depth.</p>
+        <p id="about-p2">Our catalog spans twelve distinct content pillars, from Esoteric History and Secret Societies to Parapsychology, Occult Biographies, and Bold Cultural Theory. Each book is selected for its rigor, originality, and contribution to the ongoing conversation about consciousness, meaning-making, and the limits of the known.</p>
+        <p style="color: var(--text-muted); font-style: italic; font-size: 0.95rem;">Based in Portland, Oregon. Independent since founding.</p>
+      </div>
+      <div class="pillars-container reveal">
+        <h3 style="color: var(--accent-gold); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1.5rem; font-family: 'Space Mono', monospace; font-weight: 400;">The Twelve Pillars</h3>
+        <div class="pillars-grid" id="pillars-grid">
+          <!-- All 12 pillars populated by JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPRINTS SECTION -->
+  <section id="imprints">
+    <h2 class="reveal">Our Imprints</h2>
+    <div class="imprints-grid reveal" id="imprints-grid">
+      <!-- Imprints populated by JavaScript -->
+    </div>
+  </section>
+
+  <!-- NEWS SECTION -->
+  <section id="news">
+    <h2 class="reveal">News &amp; Announcements</h2>
+    <div class="news-list reveal" id="news-list">
+      <!-- News items populated by JavaScript -->
+    </div>
+  </section>
+
+  <!-- SUBMISSION SECTION -->
+  <section id="submit">
+    <h2 class="reveal">Submit a Manuscript</h2>
+    <div class="submission-container">
+      <div class="submission-text reveal">
+        <h3 style="margin-bottom: 1rem; color: var(--text-light); font-size: 1.3rem;">What We're Looking For</h3>
+        <p id="submission-guidelines">Loading submission guidelines…</p>
+        <div class="submission-checklist">
+          <h4>What to Include</h4>
+          <ul>
+            <li>One-page project proposal</li>
+            <li>Chapter outline (if available)</li>
+            <li>Author bio</li>
+            <li>Two to three comparable titles</li>
+          </ul>
+          <p class="response-note">Response time: <span id="submission-note">We respond to all submissions within 8 weeks.</span></p>
+        </div>
+        <a id="submission-mailto" href="mailto:cunningfolkmedia@gmail.com?subject=CFM Manuscript Proposal" class="cta-button cta-primary" style="margin-top: 2rem; display: inline-block;">Send Your Proposal</a>
+      </div>
+      <div class="submission-pillars-note reveal">
+        <h3 style="color: var(--accent-gold); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1.5rem; font-family: 'Space Mono', monospace; font-weight: 400;">Active Pillars</h3>
+        <div id="submission-pillars-list" class="submission-pillar-tags">
+          <!-- Tags populated by JS -->
+        </div>
+        <p style="margin-top: 2rem; font-size: 0.9rem; color: var(--text-muted); font-style: italic;">Academic distance + profound experiential respect. The weird deserves serious thinking.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER SECTION -->
+  <section id="newsletter">
+    <div class="newsletter-container reveal">
+      <div class="newsletter-ornament" aria-hidden="true">⊕</div>
+      <h2 style="border: none; padding: 0; margin-bottom: 0.5rem;">Stay in the Loop</h2>
+      <p class="newsletter-subtext">New releases, calls for submissions, and rare dispatches from the Cunning Folk editorial office.</p>
+      <form class="newsletter-form" id="newsletter-form" action="https://cunningfolkmedia.substack.com/subscribe" method="get" target="_blank">
+        <input type="email" name="email" placeholder="your@email.com" required aria-label="Email address">
+        <button type="submit">Subscribe</button>
+      </form>
+      <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 1rem;">No spam. Infrequent. Worth it.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <div class="footer-logo">
+        <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="margin-bottom: 0.75rem; opacity: 0.6;">
+          <polygon points="16,2 30,27 2,27" fill="none" stroke="#c9a84c" stroke-width="1.5"/>
+          <circle cx="16" cy="16" r="4" fill="none" stroke="#c9a84c" stroke-width="1"/>
+        </svg>
+      </div>
+      <p><strong style="color: var(--text-light); font-family: 'Playfair Display', serif;">Cunning Folk Media</strong> is an independent esoteric publishing house based in Portland, Oregon.</p>
+      <p style="margin-top: 0.75rem;"><a href="mailto:cunningfolkmedia@gmail.com" id="footer-email">cunningfolkmedia@gmail.com</a></p>
+    </div>
+    <div class="footer-section">
+      <h4>Navigate</h4>
+      <ul class="footer-links">
+        <li><a href="#books">Books</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#imprints">Imprints</a></li>
+        <li><a href="#submit">Submit a Manuscript</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Follow</h4>
+      <ul class="footer-links" id="social-links">
+        <!-- Social links populated by JS -->
+      </ul>
+      <div style="margin-top: 1.5rem;">
+        <h4 style="margin-bottom: 0.75rem;">Imprints</h4>
+        <p style="font-size: 0.85rem; color: var(--text-muted);">Babalon Press</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2024–2026 Cunning Folk Media. All rights reserved. Portland, Oregon.</p>
+    <p class="footer-meta" id="footer-meta"></p>
+  </div>
+</footer>
+
+<!-- MAIN JAVASCRIPT -->
+<script>
+// ─── FALLBACK CONTENT (if fetch fails on file:// protocol) ───────────────────
+const fallbackContent = {
+  "site": {
+    "name": "Cunning Folk Media",
+    "tagline": "Rigorous Investigations into High Weirdness",
+    "mission": "We publish books that take the bizarre seriously. No debunking. No uncritical celebration. Rigorous thinking about the strange, the esoteric, and the genuinely unexplained.",
+    "location": "Portland, Oregon",
+    "email": "cunningfolkmedia@gmail.com",
+    "social": {
+      "twitter": "https://twitter.com/cunningfolkmedia",
+      "instagram": "https://instagram.com/cunningfolkmedia",
+      "substack": "https://cunningfolkmedia.substack.com"
+    }
+  },
+  "featured": { "id": "apocalypse-meow", "label": "Forthcoming — Babalon Press", "hook": "\"You already died in 2012. You just didn't notice.\"" },
+  "books": [
+    {
+      "id": "apocalypse-meow",
+      "title": "Apocalypse Meow",
+      "subtitle": "How We Missed the End of the World and Woke Up in the Algorithm",
+      "author": "Mark Coates",
+      "pillar": "Bold Cultural Theory & Hyperstition",
+      "pillarNumber": 6,
+      "imprint": "Babalon Press",
+      "status": "forthcoming",
+      "description": "The 2012 apocalypse actually happened. AlexNet broke computer vision. Gangnam Style broke YouTube's counter. Terence McKenna's Timewave Zero was right — we just missed the apocalypse because we were looking for fire and brimstone. We are now living in the digital afterlife.",
+      "coverImage": "assets/covers/apocalypse-meow.jpg",
+      "amazonUrl": ""
+    },
+    {
+      "id": "hitchhikers-guide-high-weirdness",
+      "title": "The Hitchhiker's Guide to High Weirdness",
+      "subtitle": "Popular Culture, Paranoid Hijinx & Paranormal Activity",
+      "author": "Mark Coates",
+      "pillar": "High Weirdness & Anomalistics",
+      "pillarNumber": 5,
+      "imprint": "Babalon Press",
+      "status": "in-progress",
+      "description": "A field guide to the strange, the paranormal, and the delightfully peculiar. Tracing the threads of high weirdness through popular culture, fringe beliefs, and documented anomalies.",
+      "coverImage": "",
+      "amazonUrl": ""
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-03-28",
+      "headline": "Announcing Apocalypse Meow by Mark Coates",
+      "body": "Forthcoming from Babalon Press: the 2012 apocalypse happened. We just missed it because we were looking for fire and brimstone. Pre-order details coming soon."
+    }
+  ],
+  "submission": {
+    "guidelines": "Cunning Folk Media publishes books that fall within our 12 content pillars — from Esoteric History and Occult Biographies to Parapsychology, High Weirdness, and Bold Cultural Theory. Academic distance with profound experiential respect.",
+    "email": "cunningfolkmedia@gmail.com",
+    "note": "We respond to all submissions within 8 weeks."
+  },
+  "imprints": [
+    {
+      "name": "Babalon Press",
+      "description": "The primary CFM imprint for the esoteric catalog. Named for the Thelemic goddess of the City of Pyramids, Babalon Press publishes rigorous, earnest investigations into occult history, consciousness, and High Weirdness.",
+      "pillars": [1,2,3,4,5,6,7,8,9,10,11,12]
+    }
+  ],
+  "pillars": [
+    { "number": 1,  "name": "Esoteric History & Secret Societies",  "color": "#c4522a" },
+    { "number": 2,  "name": "Applied Magick & Praxis",               "color": "#8b7a4a" },
+    { "number": 3,  "name": "The Paranormal & Ufology",              "color": "#6b5b95" },
+    { "number": 4,  "name": "Consciousness & Psychedelia",           "color": "#8b4513" },
+    { "number": 5,  "name": "High Weirdness & Anomalistics",         "color": "#556270" },
+    { "number": 6,  "name": "Bold Cultural Theory & Hyperstition",   "color": "#c9a84c" },
+    { "number": 7,  "name": "Folklore, Myth & The Liminal",          "color": "#a0522d" },
+    { "number": 8,  "name": "Mysticism & Eastern Esotericism",       "color": "#4a5859" },
+    { "number": 9,  "name": "Divination & Symbology",                "color": "#8b1a1a" },
+    { "number": 10, "name": "The Macabre & Death Studies",           "color": "#3d5a5a" },
+    { "number": 11, "name": "Parapsychology & Psi Phenomena",        "color": "#6b4423" },
+    { "number": 12, "name": "Occult Biographies",                    "color": "#5c5c5c" }
+  ],
+  "_meta": { "lastUpdated": "2026-03-29", "updatedBy": "Claude" }
+};
+
+// ─── CONTENT LOADER ──────────────────────────────────────────────────────────
+async function loadContent() {
+  let content;
+  try {
+    const res = await fetch('./content.json?v=' + Date.now());
+    if (!res.ok) throw new Error('fetch failed');
+    content = await res.json();
+  } catch (e) {
+    console.warn('Using fallback content:', e.message);
+    content = fallbackContent;
+  }
+  renderPage(content);
+}
+
+// ─── RENDER ───────────────────────────────────────────────────────────────────
+function renderPage(c) {
+  // Site basics
+  document.getElementById('site-title').textContent = c.site.name;
+  document.getElementById('tagline').textContent = c.site.tagline;
+  document.getElementById('mission-statement').textContent = c.site.mission;
+  document.title = c.site.name + ' — ' + c.site.tagline;
+
+  // Update submission mailto
+  const mailLink = document.getElementById('submission-mailto');
+  if (mailLink) mailLink.href = `mailto:${c.site.email}?subject=CFM Manuscript Proposal`;
+
+  // Footer email
+  const footerEmail = document.getElementById('footer-email');
+  if (footerEmail) { footerEmail.href = `mailto:${c.site.email}`; footerEmail.textContent = c.site.email; }
+
+  // Social links
+  const socialEl = document.getElementById('social-links');
+  if (socialEl && c.site.social) {
+    const links = [
+      { key: 'twitter',   label: 'X / Twitter' },
+      { key: 'instagram', label: 'Instagram'   },
+      { key: 'substack',  label: 'Substack'    }
+    ];
+    socialEl.innerHTML = links
+      .filter(l => c.site.social[l.key])
+      .map(l => `<li><a href="${c.site.social[l.key]}" target="_blank" rel="noopener">${l.label}</a></li>`)
+      .join('');
+  }
+
+  // Featured book
+  renderFeatured(c);
+
+  // Books grid
+  const booksGrid = document.getElementById('books-grid');
+  if (booksGrid) {
+    booksGrid.innerHTML = c.books.map(book => {
+      const hasCover = book.coverImage && !book.coverImage.includes('placeholder');
+      const coverHtml = hasCover
+        ? `<img src="${book.coverImage}" alt="Cover of ${book.title}" loading="lazy">`
+        : `<div class="cover-placeholder"><span>${book.title}</span></div>`;
+      const ctaHtml = book.amazonUrl
+        ? `<a href="${book.amazonUrl}" class="book-cta" target="_blank" rel="noopener">Order Now</a>`
+        : (book.status === 'forthcoming' ? `<span class="book-cta-disabled">Pre-order coming soon</span>` : '');
+      return `
+        <article class="book-card reveal">
+          <div class="book-cover">${coverHtml}</div>
+          <div class="book-info">
+            <h3 class="book-title">${book.title}</h3>
+            <p class="book-subtitle">${book.subtitle}</p>
+            <p class="book-author">by ${book.author}</p>
+            <p class="book-description">${book.description}</p>
+            <div class="book-meta">
+              <span class="book-pillar">${book.pillar}</span>
+              <span class="book-status status-${book.status}">${formatStatus(book.status)}</span>
+            </div>
+            ${ctaHtml}
+          </div>
+        </article>`;
+    }).join('');
+  }
+
+  // All 12 pillars
+  const pillarsGrid = document.getElementById('pillars-grid');
+  if (pillarsGrid && c.pillars) {
+    pillarsGrid.innerHTML = c.pillars.map(p => `
+      <div class="pillar-item" style="--pillar-color: ${p.color}">
+        <span class="pillar-number">${String(p.number).padStart(2, '0')}</span>
+        <span class="pillar-name">${p.name}</span>
+      </div>`).join('');
+  }
+
+  // Submission
+  const guidelinesEl = document.getElementById('submission-guidelines');
+  if (guidelinesEl) guidelinesEl.textContent = c.submission.guidelines;
+  const noteEl = document.getElementById('submission-note');
+  if (noteEl) noteEl.textContent = c.submission.note;
+
+  // Submission pillar tags
+  const tagsEl = document.getElementById('submission-pillars-list');
+  if (tagsEl && c.pillars) {
+    tagsEl.innerHTML = c.pillars.map(p =>
+      `<span class="pillar-tag" style="border-color: ${p.color}">${p.name}</span>`
+    ).join('');
+  }
+
+  // Imprints
+  const imprintsGrid = document.getElementById('imprints-grid');
+  if (imprintsGrid) {
+    imprintsGrid.innerHTML = c.imprints.map(imp => `
+      <div class="imprint-card">
+        <h3>${imp.name}</h3>
+        <p>${imp.description}</p>
+      </div>`).join('');
+  }
+
+  // News
+  const newsList = document.getElementById('news-list');
+  if (newsList) {
+    newsList.innerHTML = c.news.map(item => `
+      <article class="news-item">
+        <time class="news-date" datetime="${item.date}">${formatDate(item.date)}</time>
+        <h3 class="news-headline">${item.headline}</h3>
+        <p class="news-body">${item.body}</p>
+      </article>`).join('');
+  }
+
+  // Footer meta
+  const footerMeta = document.getElementById('footer-meta');
+  if (footerMeta && c._meta) {
+    footerMeta.textContent = `Site last updated ${formatDate(c._meta.lastUpdated)} by ${c._meta.updatedBy}`;
+  }
+
+  // Kick off scroll animations after render
+  initScrollReveal();
+}
+
+function renderFeatured(c) {
+  const block = document.getElementById('featured-block');
+  if (!block || !c.featured) return;
+  const book = c.books.find(b => b.id === c.featured.id);
+  if (!book) return;
+
+  const hasCover = book.coverImage && !book.coverImage.includes('placeholder');
+  const coverHtml = hasCover
+    ? `<img src="${book.coverImage}" alt="Cover of ${book.title}">`
+    : `<div class="featured-cover-placeholder"><div class="featured-cover-text">${book.title}</div></div>`;
+
+  block.innerHTML = `
+    <div class="featured-cover">${coverHtml}</div>
+    <div class="featured-info">
+      <span class="featured-label">${c.featured.label}</span>
+      <h2 class="featured-title">${book.title}</h2>
+      <p class="featured-subtitle">${book.subtitle}</p>
+      <blockquote class="featured-hook">${c.featured.hook}</blockquote>
+      <p class="featured-desc">${book.description}</p>
+      <div class="featured-ctas">
+        ${book.amazonUrl
+          ? `<a href="${book.amazonUrl}" class="cta-button cta-primary" target="_blank" rel="noopener">Order Now</a>`
+          : `<span class="cta-button cta-disabled">Pre-order Coming Soon</span>`}
+        <a href="#books" class="cta-button cta-secondary">See All Books</a>
+      </div>
+    </div>`;
+}
+
+// ─── UTILITIES ────────────────────────────────────────────────────────────────
+function formatDate(str) {
+  const d = new Date(str + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+}
+
+function formatStatus(s) {
+  return { 'forthcoming': 'Forthcoming', 'available': 'Available', 'in-progress': 'In Progress' }[s] || s;
+}
+
+// ─── SCROLL REVEAL ────────────────────────────────────────────────────────────
+function initScrollReveal() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('revealed');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+}
+
+// ─── STICKY HEADER SHADOW ─────────────────────────────────────────────────────
+window.addEventListener('scroll', () => {
+  document.getElementById('site-header').classList.toggle('scrolled', window.scrollY > 20);
+}, { passive: true });
+
+// ─── MOBILE NAV ───────────────────────────────────────────────────────────────
+const hamburgerBtn = document.getElementById('hamburger-btn');
+const navMenu = document.getElementById('nav-menu');
+hamburgerBtn.addEventListener('click', () => {
+  const open = hamburgerBtn.classList.toggle('active');
+  navMenu.classList.toggle('active', open);
+  hamburgerBtn.setAttribute('aria-expanded', open);
+});
+navMenu.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    hamburgerBtn.classList.remove('active');
+    navMenu.classList.remove('active');
+    hamburgerBtn.setAttribute('aria-expanded', 'false');
+  });
+});
+
+// ─── NEWSLETTER FORM ──────────────────────────────────────────────────────────
+document.getElementById('newsletter-form').addEventListener('submit', (e) => {
+  // Allow native form submission to Substack
+  const btn = e.target.querySelector('button');
+  btn.textContent = 'Redirecting…';
+});
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', loadContent);
+</script>
+
+</body>
+</html>
